@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    background: #ad00ff;
+    background: linear-gradient(90deg,#ad00ff 0%, #0075ff 80%);
+}
+.content{
+  height: 100vh;
+  padding-top: 25%;
+}
+.card{
+    border: 1px solid skyblue;
+    min-width: 240px;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+.card-top{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWiSN-d-jPOrG4iAmZnNopV5_LunDNMJlsww&usqp=CAU") no-repeat;
+    background-size:cover;
+    height: 150px;
+}
+.card-bottom{
+    height: 250px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name-country{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: space-around; */
+}
+.name{
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.age{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.country{
+    margin-top: 0px;
+    text-align: center;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    border-top: 2px solid grey;
+    padding-top: 20px;
+}
+.social-count{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.social-desc{
+   font-size: 0.8rem;
+   margin-top: 0px;
+   text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border: 5px solid skyblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 38%;
+}
